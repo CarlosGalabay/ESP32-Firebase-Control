@@ -66,12 +66,13 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 5. **Compila**:
     - Usa el comando de PlatformIO para compilar el código:
     ```bash
-    pio run --target upload
+    pio run
     ```
 
 6. **Prueba el proyecto**:
-    - Una vez cargado el código, el ESP32 se conectará a Wi-Fi y Firebase.
-    - Verifica que puedas controlar el LED y el servo desde Firebase y leer los datos del sensor LDR.
+  - Una vez cargado el código, el ESP32 se conectará a Wi-Fi y Firebase.
+  - Inicia la simulación usando **Ctrl + Shift + P**, luego escribe y selecciona **Wokwi: Start Simulator**.
+  - Verifica que puedas controlar el LED y el servo desde Firebase y leer los datos del sensor LDR.
 
 > [!IMPORTANT]
 > Es necesario tener instalado las extensiones de PlatformIO y Wokwi para poder compilar el proyecto y ejecutar la simulación.
