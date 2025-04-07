@@ -24,7 +24,7 @@ El proyecto ha sido desarrollado utilizando [PlatformIO](https://platformio.org/
 - Firebase ESP32 Client Library  
 - Wokwi (simulador)
 
-## Estructura del proyecto
+## 📁 Estructura del proyecto
 
 ```
 ESP32-FireBase-Control/
@@ -67,7 +67,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
     #endif
     ```
     
-    - Para ver la ubicación del archivo dentro del proyecto, consulta la sección [Estructura del proyecto](#estructura-del-proyecto).
+    - Para ver la ubicación del archivo dentro del proyecto, consulta la sección [Estructura del proyecto](#📁-estructura-del-proyecto).
 
 5. **Compila**:
     - Usa el comando de PlatformIO para compilar el código:
