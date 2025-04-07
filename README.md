@@ -42,6 +42,47 @@ ESP32-FireBase-Control/
 └── LICENSE
 ```
 
+## 🚀 Instrucciones de Instalación
+
+Sigue estos pasos para instalar y ejecutar el proyecto:
+
+1. **Clona el repositorio**:
+    ```bash
+    git clone https://github.com/CarlosGalabay/ESP32-Firebase-Control.git
+    ```
+
+2. **Abre el proyecto usando la extensión de PlatformIO en VS Code**
+    
+4. **Configura las credenciales de Firebase**:
+    - Crea un archivo `secrets.h` en el directorio `include/` con las credenciales de tu proyecto Firebase.
+    - Asegúrate de incluir las siguientes variables en `secrets.h`:
+      
+    ```cpp
+    #ifndef SECRETS_H
+    #define SECRETS_H
+    
+    #define WIFI_SSID "your-SSID"
+    #define WIFI_PASSWORD "your-WIFI-password"
+    #define API_KEY "your-Firebase-api-key"
+    #define DATABASE_URL "your-Firebase-database-url"
+
+    #endif
+    ```
+
+5. **Compila y carga el código en tu ESP32**:
+    - Conecta tu ESP32 al puerto USB y selecciona la placa adecuada en PlatformIO.
+    - Usa el comando de PlatformIO para compilar y cargar el código:
+    ```bash
+    pio run --target upload
+    ```
+
+6. **Prueba el proyecto**:
+    - Una vez cargado el código, el ESP32 se conectará a Wi-Fi y Firebase.
+    - Verifica que puedas controlar el LED y el servo desde Firebase y leer los datos del sensor LDR.
+
+> [!IMPORTANT]
+> Es necesario tener instalado las extensiones de PlatformIO y Wokwi para poder compilar el proyecto y ejecutar la simulación.
+
 ## 💡 Notas
 > [!NOTE]
 > Este proyecto está actualmente simulado en Wokwi, lo que permite su prueba sin hardware físico.
