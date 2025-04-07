@@ -4,6 +4,10 @@ Este es un ejemplo de cómo conectar un ESP32 con Firebase para controlar dispos
 
 El proyecto ha sido desarrollado utilizando [PlatformIO](https://platformio.org/) en VS Code y se ha simulado completamente en [Wokwi](https://wokwi.com/), pero está diseñado para poder implementarse fácilmente en un entorno físico real.
 
+<p align="center">
+  <img src="assets/Esquema_conexion_esp32_firebase.png" alt="Esquema eléctrico" width="1000" />
+</p>
+
 ## ⚙️ Características
 
 - Lectura de sensor LDR y cálculo de voltaje.
