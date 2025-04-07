@@ -62,6 +62,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
     #endif
     ```
+    
+    - Para ver la ubicación del archivo dentro del proyecto, consulta la sección [Estructura del proyecto](#📁-estructura-del-proyecto).
 
 5. **Compila**:
     - Usa el comando de PlatformIO para compilar el código:
@@ -71,11 +73,43 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 6. **Prueba el proyecto**:
   - Una vez cargado el código, el ESP32 se conectará a Wi-Fi y Firebase.
-  - Inicia la simulación usando **Ctrl + Shift + P**, luego escribe y selecciona **Wokwi: Start Simulator**.
+  - Inicia la simulación usando `Ctrl + Shift + P`, luego escribe y selecciona **Wokwi: Start Simulator**.
   - Verifica que puedas controlar el LED y el servo desde Firebase y leer los datos del sensor LDR.
 
 > [!IMPORTANT]
 > Es necesario tener instalado las extensiones de PlatformIO y Wokwi para poder compilar el proyecto y ejecutar la simulación.
+
+## 📸 Demo
+
+Aquí puedes ver una demostración de cómo el ESP32 se conecta a Firebase para controlar un LED y un servo, además de recolectar datos del sensor LDR.
+
+![Demo Wokwi](ruta/a/la/imagen-o-gif.gif)
+
+## 🔧 Uso de Firebase
+
+Este proyecto utiliza Firebase Realtime Database para controlar los dispositivos y almacenar los datos:
+
+- **Control del LED**: La ruta `/LED/digital` en la base de datos controla el estado del LED.
+- **Control del Servo**: La ruta `/Servo` en la base de datos controla el valor PWM del servo.
+- **Lectura de LDR**: Los datos de LDR se almacenan en `/sensor/ldr_data`.
+- **Lectura de Voltaje**: Los datos de voltaje se almacenan en `/sensor/voltage`.
+- **Estado del Pulsador**: El estado del pulsador se almacena en `/sensor/switch`.
+
+Para interactuar con estos datos, puedes agregar o modificar valores directamente desde Firebase.
+
+## 📚 Referencias
+
+- [Documentación oficial de Firebase](https://firebase.google.com/docs)
+- [Tutorial sobre cómo conectar ESP32 a Firebase](https://www.example.com/tutorial)
+- [Wokwi: Simulador de ESP32](https://wokwi.com/)
+
+## 📜 Licencia
+
+Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo [LICENSE](LICENSE).
+
+## 🚧 Estado del Proyecto
+
+Este proyecto está en su fase de simulación y pruebas. Actualmente funciona con Wokwi, pero está listo para ser implementado en un entorno real con hardware ESP32.
 
 ## 💡 Notas
 > [!NOTE]
