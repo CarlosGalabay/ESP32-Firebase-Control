@@ -109,7 +109,7 @@ Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo 
 
 ## 🚧 Estado del Proyecto
 
-Este proyecto está en su fase de simulación y pruebas. Actualmente funciona con Wokwi, pero está listo para ser implementado en un entorno real con hardware ESP32.
+Este proyecto sigue en desarrollo, especialmente en la parte de la aplicación móvil para poder controlar y leer los valores de la base de datos Firebase. Actualmente, el sistema funciona completamente simulado en Wokwi, pero está listo para ser implementado en un entorno real. 
 
 ## 💡 Notas
 > [!NOTE]
