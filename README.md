@@ -83,7 +83,10 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 Aquí puedes ver una demostración de cómo el ESP32 se conecta a Firebase para controlar un LED y un servo, además de recolectar datos del sensor LDR.
 
-![Demo Wokwi y Firebase](assets/esp32-firebase-test.gif)
+<p align="center">
+  <img src="assets/esp32-firebase-test.gif" alt="Demo Wokwi y Firebase" width="1000" />
+</p>
+
 
 ## 🔧 Uso de Firebase
 
