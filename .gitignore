@@ -1,0 +1,9 @@
+# === PLATAFORMIO ===
+IOT-FireBase-Test/.pio/
+IOT-FireBase-Test/.vscode/.browse.c_cpp.db*
+IOT-FireBase-Test/.vscode/c_cpp_properties.json
+IOT-FireBase-Test/.vscode/launch.json
+IOT-FireBase-Test/.vscode/ipch
+
+# No subir archivos sensibles
+**/secrets.h
