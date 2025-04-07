@@ -69,9 +69,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
     #endif
     ```
 
-5. **Compila y carga el código en tu ESP32**:
-    - Conecta tu ESP32 al puerto USB y selecciona la placa adecuada en PlatformIO.
-    - Usa el comando de PlatformIO para compilar y cargar el código:
+5. **Compila**:
+    - Usa el comando de PlatformIO para compilar el código:
     ```bash
     pio run --target upload
     ```
