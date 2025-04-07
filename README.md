@@ -103,6 +103,13 @@ Para interactuar con estos datos, puedes agregar o modificar valores directament
 - [Tutorial sobre cómo conectar ESP32 a Firebase](https://www.example.com/tutorial)
 - [Wokwi: Simulador de ESP32](https://wokwi.com/)
 
+## 💡 Notas
+> [!NOTE]
+> Este proyecto está actualmente simulado en Wokwi, lo que permite su prueba sin hardware físico.
+
+> [!TIP]
+> Se recomienda probar el código en un entorno real para verificar su funcionamiento con hardware.
+
 ## 📜 Licencia
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo [LICENSE](LICENSE).
@@ -111,9 +118,4 @@ Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo 
 
 Este proyecto sigue en desarrollo, especialmente en la parte de la aplicación móvil para poder controlar y leer los valores de la base de datos Firebase. Actualmente, el sistema funciona completamente simulado en Wokwi, pero está listo para ser implementado en un entorno real. 
 
-## 💡 Notas
-> [!NOTE]
-> Este proyecto está actualmente simulado en Wokwi, lo que permite su prueba sin hardware físico.
 
-> [!TIP]
-> Se recomienda probar el código en un entorno real para verificar su funcionamiento con hardware.
