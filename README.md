@@ -4,8 +4,6 @@ Este es un ejemplo de cómo conectar un ESP32 con Firebase para controlar dispos
 
 El proyecto ha sido desarrollado utilizando [PlatformIO](https://platformio.org/) en VS Code y se ha simulado completamente en [Wokwi](https://wokwi.com/), pero está diseñado para poder implementarse fácilmente en un entorno físico real.
 
----
-
 ## ⚙️ Características
 
 - Lectura de sensor LDR y cálculo de voltaje.
@@ -14,8 +12,6 @@ El proyecto ha sido desarrollado utilizando [PlatformIO](https://platformio.org/
 - Control de la posición de un servo motor desde Firebase.
 - Comunicación bidireccional con Firebase Realtime Database.
 
----
-
 ## 💻 Tecnologías utilizadas
 
 - ESP32  
@@ -23,8 +19,6 @@ El proyecto ha sido desarrollado utilizando [PlatformIO](https://platformio.org/
 - Firebase Realtime Database  
 - Firebase ESP32 Client Library  
 - Wokwi (simulador)
-
----
 
 ## 📁 Estructura del proyecto
 
