@@ -100,6 +100,11 @@ Este proyecto utiliza Firebase Realtime Database para controlar los dispositivos
 
 Para interactuar con estos datos, puedes agregar o modificar valores directamente desde Firebase.
 
+<p align="center">
+  <img src="assets/realtime-database.jpeg" alt="Uso de Firebase" width="500" />
+</p>
+
+
 ## 📚 Referencias
 
 - [Documentación oficial de Firebase](https://firebase.google.com/docs)
