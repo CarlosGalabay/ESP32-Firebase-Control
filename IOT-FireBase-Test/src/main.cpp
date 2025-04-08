@@ -98,7 +98,7 @@ void loop()
       voltage = (float)analogReadMilliVolts(LDR_PIN) / 1000.0;
       switchStatus = digitalRead(SWITCH_PIN);
 
-      // Envío de los datos al Realtime Database
+      // Envío de los datos al Realtime Database (Escritura/Write)
       if (Firebase.RTDB.setInt(&fbdo, LDR_PATH, ldrData))
         Serial.println("Enviado: " + String(ldrData) + " -> " + LDR_PATH);
       else
@@ -115,7 +115,7 @@ void loop()
         Serial.println("Error al enviar switch: " + fbdo.errorReason());
     }
 
-    // ------------------ Lectura del valor PWM del servo ------------------
+    // ------------------ Lectura del valor PWM del servo (Read) ------------------
     if (!Firebase.RTDB.readStream(&fbdo_s1))
       Serial.printf("Stream 1 error: %s\n", fbdo_s1.errorReason().c_str());
 
@@ -126,7 +126,7 @@ void loop()
       miServo.write(servo_angle);
     }
 
-    // ------------------ Lectura del estado del LED ------------------
+    // ------------------ Lectura del estado del LED (Read) ------------------
     if (!Firebase.RTDB.readStream(&fbdo_s2))
       Serial.printf("Stream 2 error: %s\n", fbdo_s2.errorReason().c_str());
 
