@@ -67,7 +67,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
     #endif
     ```
     
-    - Para ver la ubicación del archivo dentro del proyecto, consulta la sección [Estructura del proyecto](#📁-estructura-del-proyecto).
+    - Para ver la ubicación del archivo dentro del proyecto, consulta la sección [Estructura del proyecto](#-estructura-del-proyecto).
 
 5. **Compila**:
     - Usa el comando de PlatformIO para compilar el código:
@@ -97,7 +97,7 @@ Aquí puedes ver una demostración de cómo el ESP32 se conecta a Firebase para 
 Este proyecto utiliza Firebase Realtime Database para controlar los dispositivos y almacenar los datos:
 
 - **Control del LED**: La ruta `/LED/digital` en la base de datos controla el estado del LED.
-- **Control del Servo**: La ruta `/Servo` en la base de datos controla el valor PWM del servo.
+- **Control del Servo**: La ruta `/Servo` en la base de datos controla la posición angular del servo.
 - **Lectura de LDR**: Los datos de LDR se almacenan en `/sensor/ldr_data`.
 - **Lectura de Voltaje**: Los datos de voltaje se almacenan en `/sensor/voltage`.
 - **Estado del Pulsador**: El estado del pulsador se almacena en `/sensor/switch`.
